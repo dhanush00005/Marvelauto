@@ -9,10 +9,10 @@ class Config:
     API_ID = int(getenv("API_ID", "27402354"))
     API_HASH = getenv("API_HASH", "60c51bb87f0d213d954695dd8f636afd")
     BOT_TOKEN = getenv("BOT_TOKEN", "7464128394:AAG5BQgc5u_vHh3lQNVOaj89nUsRi8k7u_M")
-    FSUB = getenv("FSUB", "")
-    CHID = int(getenv("CHID", ""))
+    FSUB = getenv("FSUB", "maiwi1")
+    CHID = int(getenv("CHID", "-1002401693796"))
     SUDO = list(map(int, getenv("SUDO", "5798247275 5364478284").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://fino:fino@cluster0.ko0stef.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
